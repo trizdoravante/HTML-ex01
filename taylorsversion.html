@@ -83,6 +83,18 @@
     <img src="deezer.png" alt="Link para o álbum no deezer"width="60" height="60">
 </a>
 
+<h3> Se inscreva em nossa Newsletter para receber atualizações semanais da loirinha!</h3>
+<form action="#" method="post">
+    <label for="nome">Nome Completo:</label>
+        <input type="text" id="nome" onkeyup="validaNome()" name="nome" required><br><br>
+        <div id="txtNome"></div>
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" onkeyup="validaEmail()" name="email" required><br><br>
+        <div id="txtEmail"></div>
+
+        <input type="submit" value="Cadastrar">
+</form>
+
 </div>
 <h2 class="centralizar-texto">Acompanhe a Taylor nas suas redes oficiais!</h2>
 <div class="centralizar-texto">
@@ -111,5 +123,6 @@
 </a>
 </div>
 <footer class="centralizar-texto"> Desenvolvido por Beatriz Campos, 2023 &copy;</footer>
+<script src="script.js"></script>
 </body>
 </html>
